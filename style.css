@@ -1,0 +1,81 @@
+
+/*Global styles
+----------------------------*/
+a{
+color:rgb(255, 0, 179)
+}
+.btn{
+    color:rgb(239, 239, 233);
+    background:rgb(232, 75, 18, 80%);
+    padding:8px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    text-decoration:none;
+
+}
+
+img{
+    width:300px;
+}
+
+ul.a {
+    list-style-type: circle;
+  }
+
+  body {
+    background-color: rgb(239, 160, 132);
+}
+
+*{
+    color:white;
+
+}
+
+h1{
+    color: pink;
+    background:white;
+}
+
+h2{
+    color:pink;
+
+}
+
+h3{
+    color: rgb(199,84,26)
+}
+
+.whiteback{
+    background: white;
+}
+
+.example1 {
+    color:rgb(199, 84, 26);
+
+}
+
+/*Projects
+---------------*/
+
+.labels{
+    background-color: white;
+}
+
+/*Work Experience
+---------*/
+
+
+/*Footer
+---------------*/
+
+.footlink{
+    padding:0;
+    color:white;
+
+}
+
+footer{
+    background-color:rgb(232, 75, 18);
+}
