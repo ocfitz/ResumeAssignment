@@ -1,6 +1,14 @@
 
 /*Global styles
 ----------------------------*/
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+
 a{
 color:rgb(255, 0, 179)
 }
@@ -9,10 +17,12 @@ color:rgb(255, 0, 179)
     background:rgb(232, 75, 18, 80%);
     padding:8px;
     border-radius: 4px;
+    display: inline-block;
 }
 
 .btn:hover {
     text-decoration:none;
+   
 
 }
 
@@ -26,6 +36,11 @@ ul.a {
 
   body {
     background-color: rgb(239, 160, 132);
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 *{
@@ -34,25 +49,53 @@ ul.a {
 }
 
 h1{
-    color: pink;
-    background:white;
+    color: rgb(250, 247, 247);
+   margin:0
+    
+}
+
+@import url(https://fonts.googleapis.com/css?family=Six+Caps);
+
+.modernist {
+  font-family: six caps;
+  text-transform: lowercase;
+  background: rgb(239,160,132);
+  background-size: 100%;
+  color: white;
+  letter-spacing: .2em;
+  font-size: 4rem;
+  text-shadow: .07em .07em 0 #ffd037, .1em .1em 0 white;
 }
 
 h2{
     color:pink;
+    font-size: 30px;
+   
 
 }
 
 h3{
     color: rgb(199,84,26)
+
 }
 
 .whiteback{
     background: white;
+    color:#ffd037;
+    font-size: 35px;
+    margin:0
 }
 
 .example1 {
     color:rgb(199, 84, 26);
+   
+
+}
+
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding:60px 0;
 
 }
 
@@ -61,6 +104,18 @@ h3{
 
 .labels{
     background-color: white;
+}
+
+.project-items {
+
+    overflow: hidden;
+    border-bottom: 1px dashed #ffd037;
+    padding:25px 0
+}
+.project-items img {
+    float: left;
+    margin-right: 20px
+
 }
 
 /*Work Experience
@@ -75,7 +130,12 @@ h3{
     color:white;
 
 }
+.footercolor{
+    color:rgb(199, 84, 26);
 
+}
 footer{
-    background-color:rgb(232, 75, 18);
+    background-color: #ffd037;
+    
+padding: 2px;
 }
